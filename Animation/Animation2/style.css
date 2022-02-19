@@ -1,0 +1,14 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.train {
+    position: relative;
+    cursor: pointer;
+    width: 177px;
+    height: 160px;
+    left: 0;
+    transition: left 5s cubic-bezier(0, 0, 1, 1);
+  } */

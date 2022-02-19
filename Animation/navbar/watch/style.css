@@ -1,0 +1,19 @@
+*,::after::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,#333CFF , #EE0000,#E3ADAD  );
+}
+
+#soat{
+    font-size: 100px;
+    font-weight: 700;
+}
+

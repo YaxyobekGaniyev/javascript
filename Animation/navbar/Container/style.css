@@ -1,0 +1,91 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(15deg, #eb4034, #1606c9,#FF7355,#C9F600,#13186D );
+    transition: all .5s ease-in-out;
+}
+
+.container-flued {
+    width: 800px;
+    height: 280px;
+    position: absolute;
+    left: 14%;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.slider {
+    display: inline-flex;
+    transition: all 1s ease-in;
+}
+
+.slider-col {
+    width: 800px;
+    height: 280px;
+    padding: 0 20px;
+}
+
+.slider-col h1 {
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-weight: 100;
+}
+
+.slider-col p {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.slider-col a {
+    color: white;
+    background: #000;
+    padding: 10px 25px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.controler {
+    width: 10px;
+    height: 320px;
+    position: absolute;
+    background: black;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#line1, #line2, #line3, #line4 {
+    height: 80px;
+    width: 10px;
+    background: #79778f;
+}
+
+#active {
+    height: 80px;
+    width: 15px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: -7.5px;
+    transform: translateX(-40%);
+    transition: all .5s ease-in;
+    border-radius: 4px;
+}

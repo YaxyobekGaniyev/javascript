@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+}
+
+.block a{
+    text-decoration: none;
+    color: sandybrown;
+}
